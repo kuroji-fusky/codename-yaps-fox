@@ -1,0 +1,13 @@
+{
+	"private": true,
+	"name": "cn-yaps-fox",
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"pi:website": "yarn workspace @cn-yaps/website nuxt prepare",
+		"pi:dashboard": "yarn workspace @cn-yaps/dashboard nuxt prepare",
+		"postinstall": "yarn pi:website & yarn pi:dashboard"
+	}
+}

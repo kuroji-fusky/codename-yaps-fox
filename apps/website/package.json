@@ -1,0 +1,14 @@
+{
+	"name": "@cn-yaps/website",
+  "private": true,
+	"version": "0.1.0",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3000",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0"
+  }
+}

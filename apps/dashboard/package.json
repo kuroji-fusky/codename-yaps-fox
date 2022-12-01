@@ -1,0 +1,14 @@
+{
+	"private": true,
+	"name": "@cn-yaps/dashboard",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev --port 4000",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview"
+	},
+	"devDependencies": {
+		"nuxt": "3.0.0"
+	}
+}
